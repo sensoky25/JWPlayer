@@ -1,0 +1,297 @@
+.jw-icon-cc .jw-svg-icon-cc-off path,
+.jw-icon-cc .jw-svg-icon-cc-on path,
+.jw-icon-pip .jw-svg-icon-pip-off path,
+.jw-icon-pip .jw-svg-icon-pip-on path,
+.jw-state-idle .jw-svg-icon-play path,
+.jw-svg-icon-buffer path,
+.jw-svg-icon-fullscreen-off path,
+.jw-svg-icon-fullscreen-on path,
+.jw-svg-icon-pause path,
+.jw-svg-icon-play path,
+.jw-svg-icon-replay path,
+.jw-svg-icon-rewind path,
+.jw-svg-icon-settings path,
+.jw-svg-icon-volume-0 path,
+.jw-svg-icon-volume-100 path,
+.jw-svg-icon-volume-50 path,
+.jw-svg-icon.jw-svg-icon-sharing path,
+.jwplayer.jw-skin-alaska.jw-breakpoint-0 .jw-title-secondary,
+.jwplayer.jw-skin-alaska.jw-breakpoint-1 .jw-title-secondary,
+.jwplayer.jw-skin-alaska.jw-state-complete .jw-title .jw-title-primary,
+.jwplayer.jw-skin-alaska.jw-state-complete .jw-title .jw-title-secondary {
+	display: none
+}
+.jw-preview{
+    display: none !important;
+}
+
+.jwplayer.jw-skin-alaska.jw-state-idle.jw-breakpoint-2 .jw-display-controls .jw-display-icon-container,
+.jwplayer.jw-skin-alaska.jw-state-idle.jw-breakpoint-3 .jw-display-controls .jw-display-icon-container {
+	height: 60px;
+	width: 60px
+}
+
+.jwplayer.jw-skin-alaska .jw-controlbar .jw-button-container .jw-button-color,
+.jwplayer.jw-skin-alaska .jw-settings-menu .jw-settings-content-item,
+.jwplayer.jw-skin-alaska.jw-state-idle .jw-display-controls .jw-display-icon-container .jw-icon:hover,
+.jwplayer.jw-skin-alaska.jw-state-paused .jw-controlbar .jw-button-container .jw-button-color {
+	color: #fff
+}
+
+.jwplayer.jw-skin-alaska.jw-state-paused .jw-controls {
+	background-color: rgb(0 0 0 / 50%)
+}
+
+.jwplayer.jw-skin-alaska.jw-state-idle .jw-title {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center
+}
+
+.jwplayer.jw-skin-alaska .jw-title-primary {
+	font-size: 48px;
+	padding: 30px 30px 15px;
+	color: #1e1e1e;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Oswald, sans-serif;
+	font-weight: 500;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s
+}
+
+.jwplayer.jw-skin-alaska .jw-title-secondary {
+	font-size: 18px;
+	max-width: 70%;
+	font-weight: 500;
+	opacity: 0;
+	margin: 0 auto;
+	color: #1e1e1e;
+	text-align: center;
+	font-family: Merriweather, serif;
+	white-space: normal;
+	line-height: 1.3;
+	-webkit-transition: opacity 0.35s 80ms, -webkit-transform 0.35s 80ms;
+	transition: opacity 0.35s 80ms, transform 0.35s 80ms
+}
+
+.jwplayer.jw-skin-alaska.jw-breakpoint-0 .jw-title-primary,
+.jwplayer.jw-skin-alaska.jw-breakpoint-1 .jw-title-primary,
+.jwplayer.jw-skin-alaska.jw-breakpoint-2 .jw-title-primary,
+.jwplayer.jw-skin-alaska.jw-breakpoint-3 .jw-title-primary {
+	font-size: 22px
+}
+
+.jwplayer.jw-skin-alaska.jw-breakpoint-2 .jw-title-secondary,
+.jwplayer.jw-skin-alaska.jw-breakpoint-3 .jw-title-secondary {
+	font-size: 14px
+}
+
+.jwplayer.jw-skin-alaska .jw-display {
+	padding-bottom: 45px
+}
+
+.jwplayer.jw-skin-alaska .jw-controlbar .jw-button-container .jw-button-color:hover {
+	color: #23d41e
+}
+
+.jwplayer.jw-skin-alaska .jw-controlbar .jw-tooltip {
+	bottom: 70%;
+	box-shadow: none
+}
+
+.jwplayer.jw-skin-alaska .jw-controlbar .jw-tooltip.jw-open {
+	border-radius: 5px;
+	color: #fff
+}
+
+.jwplayer.jw-skin-alaska .jw-controlbar .jw-tooltip .jw-text {
+	background-color: #fff;
+	border-radius: 5px;
+	border: 0
+}
+
+.jwplayer.jw-skin-alaska .jw-time-tip,
+.jwplayer.jw-skin-alaska .jw-volume-tip {
+	padding-bottom: 0
+}
+
+.jw-slider-vertical .jw-progress,
+.jwplayer.jw-skin-alaska .jw-controlbar .jw-slider-time .jw-slider-container .jw-progress,
+.jwplayer.jw-skin-alaska .jw-overlay .jw-slider-volume .jw-slider-container .jw-knob,
+.jwplayer.jw-skin-alaska .jw-settings-menu .jw-settings-topbar,
+.jw-slider-horizontal.jw-chapter-slider-time .jw-slider-container .jw-timesegment-progress {
+	background: linear-gradient(-90deg, #1fc591, #23d41e 97%)
+}
+
+.jw-state-idle .jw-svg-icon-play,
+.jw-svg-icon-buffer,
+.jw-svg-icon-play {
+	background-size: contain;
+	background-repeat: no-repeat;
+	filter: brightness(0) invert(1)
+}
+
+.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-rewind,
+.jw-icon.jw-icon-rewind.jw-button-color.jw-reset {
+	background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgsLt0dIDsP_xsmG0t38I7lVj1y3UnswFtAdHnD3Mbpsx8DwbPsVZDTc4JrVxCU8rswasPmeH2GD3Amvn83mEgrtX3xPaGHrUaDPpZpDASM8hAaGhPJh7GDwzCtgOGXXaMlZgO_f4O3y19iAtW9s-1zjjCiNVqVUYDxAS211Tc9M-4Hg/s300/1.webp)
+}
+
+.jw-knob {
+	height: 23px;
+	width: 23px
+}
+
+.jwplayer.jw-skin-alaska .jw-controlbar .jw-slider-time .jw-slider-container .jw-rail {
+	background-color: #ffffff30
+}
+
+.jwplayer.jw-skin-alaska .jw-controlbar .jw-slider-time .jw-slider-container .jw-buffer {
+	background-color: #ffffff94
+}
+
+.jwplayer.jw-skin-alaska .jw-controlbar .jw-slider-time .jw-slider-container .jw-knob {
+	background-color: #fff;
+	box-shadow: 0 0 0 4px rgb(30 202 149 / .3)
+}
+
+.jwplayer.jw-skin-alaska .jw-settings-menu {
+	background-color: #fff0
+}
+
+.jwplayer.jw-skin-alaska .jw-settings-menu .jw-settings-topbar .jw-icon:hover {
+	color: #1e1e1e
+}
+
+.jwplayer.jw-skin-alaska .jw-settings-menu .jw-settings-submenu {
+	background-color: #181919
+}
+
+.jwplayer.jw-skin-alaska .jw-settings-menu .jw-settings-content-item:hover,
+.jwplayer.jw-skin-alaska .jw-settings-menu .jw-settings-item-active {
+	color: #23d41e;
+	font-weight: 700
+}
+
+.jw-state-idle .jw-svg-icon-play {
+	background-image: url(https://demo.ews.pe/dooplay/wp-content/themes/dooplay/assets/css/img/play4.svg)
+}
+
+.jw-svg-icon-play {
+	background-image: url(https://www.svgrepo.com/show/503072/play.svg)
+}
+
+.jw-svg-icon-buffer {
+	background-image: url(https://www.svgrepo.com/show/478677/loading-2.svg);
+	background-position: center
+}
+
+.jw-svg-icon-replay {
+	background: url(https://www.svgrepo.com/show/274164/refresh.svg) center/contain no-repeat;
+	filter: brightness(0) invert(1);
+	transform: scaleX(-1)
+}
+
+.jw-icon-cc .jw-svg-icon-cc-on {
+	background-image: url(https://www.svgrepo.com/show/345611/closed-captioning.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	filter: brightness(0) invert(1)
+}
+
+.jw-icon-cc .jw-svg-icon-cc-off {
+	background-image: url(https://www.svgrepo.com/show/346690/closed-captioning.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	filter: brightness(0) invert(1)
+}
+
+.jw-svg-icon.jw-svg-icon-sharing {
+	background-image: url(https://www.svgrepo.com/show/527441/share.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	filter: brightness(0) invert(1)
+}
+
+.jw-icon-pip .jw-svg-icon-pip-on {
+	background-image: url(https://www.svgrepo.com/show/347273/picture-in-picture-2.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	filter: brightness(0) invert(1)
+}
+
+.jw-icon-pip .jw-svg-icon-pip-off {
+	background-image: url(https://www.svgrepo.com/show/347275/picture-in-picture-exit.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	filter: brightness(0) invert(1)
+}
+
+.jw-svg-icon-pause {
+	background-image: url(https://cdn.ramseysolutions.net/media/ramsey-plus/app/test/jw-ui/icon-jw-pause.svg);
+	background-size: contain;
+	background-repeat: no-repeat
+}
+
+.jw-svg-icon-volume-100 {
+	background-image: url(https://cdn.ramseysolutions.net/media/ramsey-plus/app/test/jw-ui/icon-jw-volume-high.svg);
+	background-size: contain;
+	background-repeat: no-repeat
+}
+
+.jw-svg-icon-volume-50 {
+	background-image: url(https://cdn.ramseysolutions.net/media/ramsey-plus/app/test/jw-ui/icon-jw-volume-low.svg);
+	background-size: contain;
+	background-repeat: no-repeat
+}
+
+.jw-svg-icon-volume-0 {
+	background-image: url(https://cdn.ramseysolutions.net/media/ramsey-plus/app/test/jw-ui/icon-jw-volume-mute.svg);
+	background-size: contain;
+	background-repeat: no-repeat
+}
+
+.jw-svg-icon-settings {
+	background-image: url(https://www.svgrepo.com/show/500685/setting.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	filter: brightness(0) invert(1)
+}
+
+.jw-svg-icon-fullscreen-on {
+	background-image: url(https://www.svgrepo.com/show/336742/full-screen.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	filter: brightness(0) invert(1)
+}
+
+.jw-svg-icon-fullscreen-off {
+	background-image: url(https://www.svgrepo.com/show/310875/full-screen-zoom.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	filter: brightness(0) invert(1)
+}
+
+.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-rewind {
+	background-size: 25px;
+	background-repeat: no-repeat;
+	background-position: center
+}
+
+.jw-icon.jw-icon-rewind.jw-button-color.jw-reset {
+	background-size: 40px;
+	background-repeat: no-repeat;
+	background-position: center
+}
+
+.jw-breakpoint-5 .jw-display .jw-svg-icon {
+	width: 100% !important;
+	height: 65px !important;
+	margin-left: 15px !important
+}
+
+.jw-controlbar .jw-button-container .jw-button-color:hover {
+	filter: invert(0%) sepia(55%) saturate(3217%) hue-rotate(64deg) brightness(87%) contrast(103%)
+}
